@@ -1,84 +1,91 @@
-*{
+* {
     margin: 0;
     padding: 0;
-     box-sizing: border-box;
+    box-sizing: border-box;
 }
-.container{
+
+.container {
     background-color: #f3eae3;
     height: 600px;
-    width:800px;
-    margin:auto;
+    width: 800px;
+    margin: auto;
     padding-top: 50px;
     padding-left: 150px;
     border-radius: 10px;
-    display:flex;
-    align-items:center;
-     }
-.left{
-width: 70%;
-display: flex;
+    display: flex;
+    align-items: center;
 }
-.left img{
+
+.left {
+    width: 70%;
+    display: flex;
+}
+
+.left img {
     border-radius: 6px 0px 0px 6px;
-    width:100%;
+    width: 100%;
 }
-.right{
+
+.right {
     background-color: #fff;
     border-radius: 0px 6px 6px 0px;
     padding-left: 25px;
     padding-right: 25px;
-    }
-.right h2{
-        letter-spacing: 4px;
-        color:#ece8e5;
-        size: 0.3px;
-        text-transform: uppercase;
-        align-items: center;
-        padding-top: 8px;
-    }
-     h1{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: #343538 ;
-         size: 2.5rem;
-         line-height: 25px;
-         margin-top:10px;
-         margin-bottom: 15px;
-    }
- .description{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color:grey;
-        line-height: 20px;
-        }
-    .btn{
-        background-color: #3f856b;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        color:#fbfffe;
-        gap:20px;
-        font-size: 17px;
-        padding:8px;
-        border-radius: 5px;
-        font-weight: 500;
-    }
-    .prices{
-        display:flex;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        align-items: center;
-    }
-    .price{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 20px;
-        color: #388166;
-    }
-    .old-price{
-        text-decoration: line-through;
-        color:#98999e;
-        margin-left: 20px;
-        font-size: 15px;
-    }
-    
+}
 
-        
-        
+.right h2 {
+    letter-spacing: 4px;
+    color: #ece8e5;
+    size: 0.3px;
+    text-transform: uppercase;
+    align-items: center;
+    padding-top: 8px;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #343538;
+    size: 2.5rem;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    line-height: 20px;
+}
+
+.btn {
+    background-color: #3f856b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fbfffe;
+    gap: 20px;
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.prices {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.price {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #388166;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #98999e;
+    margin-left: 20px;
+    font-size: 15px;
+}
