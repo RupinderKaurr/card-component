@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +7,8 @@
 
 .container {
     background-color: #f3eae3;
-    height: 600px;
-    width: 800px;
+    height: 700px;
+    width: 900px;
     margin: auto;
     padding-top: 50px;
     padding-left: 150px;
@@ -17,44 +18,55 @@
 }
 
 .left {
-    width: 70%;
+    width: 60%;
     display: flex;
 }
 
+
 .left img {
     border-radius: 6px 0px 0px 6px;
-    width: 100%;
+    width: 175%;
+    
 }
 
 .right {
     background-color: #fff;
     border-radius: 0px 6px 6px 0px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+
 }
 
 .right h2 {
     letter-spacing: 4px;
-    color: #ece8e5;
-    size: 0.3px;
+    color: #aeafb4;
+    font-size:x-small;
     text-transform: uppercase;
     align-items: center;
-    padding-top: 8px;
+    padding-top: 10px;
+    font-weight: 700;
+    
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #343538;
-    size: 2.5rem;
-    line-height: 25px;
+    font-family: 'Fraunces', serif;
+    color:#121619 ;
+    size: 30px;
+    line-height: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
+    
+    font-weight: bold;
+
 }
 
 .description {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
+    font-family: 'Montserrat', sans-serif;    
+    color: #949496;
     line-height: 20px;
+    font-weight:bold;
+    font-size: small;
 }
 
 .btn {
@@ -68,24 +80,26 @@ h1 {
     padding: 8px;
     border-radius: 5px;
     font-weight: 500;
+    width:80%;
 }
 
 .prices {
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     align-items: center;
 }
 
 .price {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
     color: #388166;
+    font-weight:700;
 }
 
 .old-price {
     text-decoration: line-through;
-    color: #98999e;
+    color: #aeafb4;
     margin-left: 20px;
     font-size: 15px;
 }
