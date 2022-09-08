@@ -1,60 +1,74 @@
+
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 .container {
     background-color: #f3eae3;
-    height: 600px;
-    width: 800px;
+    height: 950px;
+    width: 1200px;
     margin: auto;
-    padding-top: 50px;
-    padding-left: 150px;
+    padding-left: 50px;
+    margin-right: 50px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-}
+    justify-items: center;
 
+}
 .left {
-    width: 70%;
+    width: 50%;
     display: flex;
+    margin:40px auto;
+    padding-bottom: 60px;
 }
 
 .left img {
-    border-radius: 6px 0px 0px 6px;
-    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    width: 170%;
+    
 }
-
+    
 .right {
     background-color: #fff;
     border-radius: 0px 6px 6px 0px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+   padding-right: 25px;
+    padding-bottom: 30px;
+
 }
 
 .right h2 {
     letter-spacing: 4px;
-    color: #ece8e5;
-    size: 0.3px;
+    color: #aeafb4;
+    font-size:small;
     text-transform: uppercase;
     align-items: center;
-    padding-top: 8px;
+    padding-top: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    
 }
 
 h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #343538;
-    size: 2.5rem;
-    line-height: 25px;
-    margin-top: 10px;
-    margin-bottom: 15px;
+    font-family: 'Fraunces', serif;
+    color:#121619 ;
+    size: 30px;
+    line-height: 35px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
 }
 
 .description {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;
-    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;    
+    color: #949496;
+    line-height: 25px;
+    font-weight:normal;
+    font-size: small;
+    margin-top: 30px;
 }
 
 .btn {
@@ -63,29 +77,34 @@ h1 {
     align-items: center;
     justify-content: center;
     color: #fbfffe;
-    gap: 20px;
+    gap: 15px;
     font-size: 17px;
     padding: 8px;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 300;
+    width:90%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-family: 'Fraunces', serif;
 }
 
 .prices {
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 15px;
     align-items: center;
 }
 
 .price {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
     color: #388166;
+    font-weight:700;
 }
 
 .old-price {
     text-decoration: line-through;
-    color: #98999e;
+    color: #aeafb4;
     margin-left: 20px;
     font-size: 15px;
 }
