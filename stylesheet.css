@@ -1,30 +1,28 @@
 *{
+    margin:0;
     box-sizing: border-box;
 }
 .container {
     background-color: #eee8aa;
-    height:650px;
-    width: 1200px;
-    
-    border-radius: 8px;
+    width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
     display: flex;
     align-items: center;
     justify-items: center;
-     position: relative;
-     top: 0;
-     right:0;
-     left:0;
-     margin: auto;
+    
 }
     
  
 .left {
     width: 50%;
     display: flex;
-    position: absolute;
-    left: 25%;
-    right: 35%;
+    margin:40px auto;
+    padding-bottom: 60px;
 }
+
 
 
 .left img {
@@ -110,4 +108,10 @@ h1 {
     color: #aeafb4;
     margin-left: 20px;
     font-size: 15px;
+}
+
+@media only screen and (max-width:1000px){
+    .container{
+        background-color: #388166;
+    }
 }
