@@ -1,66 +1,73 @@
 *{
     box-sizing: border-box;
 }
-.container {
+
+body{
     background-color: #eee8aa;
-    height:650px;
-    width: 1200px;
-    
+}
+
+.container{
+    height: 650px;
+   width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
     border-radius: 8px;
     display: flex;
     align-items: center;
     justify-items: center;
-     position: relative;
-     top: 0;
-     right:0;
-     left:0;
-     margin: auto;
+
 }
+.left{
+    width: 25%;
+  height: 80%;
+  display: flex;
+  margin-left: 10rem;
     
- 
-.left {
-    width: 50%;
-    display: flex;
-    position: absolute;
-    left: 25%;
-    right: 35%;
+    
 }
 
-
-.left img {
+.left  img {
     border-radius: 10px 0px 0px 10px;
-    width: 170%;
-    }
+    width: 100%;
     
+} 
 
-.right {
-    background-color: #fff;
-    border-radius: 0px 6px 6px 0px;
-    padding-left: 40px;
-   padding-right: 25px;
-    padding-bottom: 30px;
+    
+    
+.right{
+
+       background-color: #fff;
+       border-radius: 0px 10px 10px 0px;
+       height: 80%;
+       width: 25%;
+       padding-left: 1.5rem;
+       padding-right: 2.3rem;
+       padding-bottom: 1.5rem;
+       align-items: center;
+       justify-content: center;
 }
 
 
 .right h2 {
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     color: #aeafb4;
     font-size:small;
     text-transform: uppercase;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     font-weight: 700;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     
 }
+
 
 h1 {
     font-family: 'Fraunces', serif;
     color:#121619 ;
-    size: 30px;
-    line-height: 35px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    size: 1.875rem;
+    line-height: 2.1875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     font-weight: bold;
 
 }
@@ -68,10 +75,10 @@ h1 {
 .description {
     font-family: 'Montserrat', sans-serif;    
     color: #949496;
-    line-height: 25px;
+    line-height: 1.565rem;
     font-weight:normal;
     font-size: small;
-    margin-top: 30px;
+    margin-top: 1.875rem;
 }
 
 .btn {
@@ -80,27 +87,29 @@ h1 {
     align-items: center;
     justify-content: center;
     color: #fbfffe;
-    gap: 15px;
-    font-size: 17px;
-    padding: 8px;
-    border-radius: 5px;
+    justify-content:space-evenly;
+    font-size: 1.0625rem;
+    padding: 0.5rem;
+    border-radius: 0.3125rem;
     font-weight: 300;
     width:90%;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3.125rem;
+    margin-bottom: 1.25rem;
     font-family: 'Fraunces', serif;
+    border: none;
+
 }
 
 .prices {
     display: flex;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    margin-top: 1.875rem;
+    margin-bottom: 0.9375rem;
     align-items: center;
 }
 
 .price {
     font-family: 'Fraunces', serif;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #388166;
     font-weight:700;
 }
@@ -108,6 +117,53 @@ h1 {
 .old-price {
     text-decoration: line-through;
     color: #aeafb4;
-    margin-left: 20px;
-    font-size: 15px;
+    margin-left: 1.25rem;
+    font-size: 0.9375rem;
 }
+
+
+@media only screen and (min-width:200px)and (max-width:767px){
+    .container{
+        width:100%;
+        flex-direction: column;
+        height: 500px;
+   
+    
+        }
+}
+
+@media only screen and (min-width:200px)and (max-width:767px){
+    .left{
+        width:100%;
+        flex-direction: column;
+        height: 400px; 
+        margin-right: 80px;
+        }
+}
+
+@media only screen and (min-width:200px)and (max-width:767px){
+    .left img{
+        width:100%;
+        flex-direction: column;
+        height:600px;
+        object-fit: cover;
+        margin-top: 20px;
+    
+        }
+}
+@media only screen and (min-width:200px)and (max-width:767px){
+    .right{
+        width:100%;
+        flex-direction: column;
+        height:450px;
+        margin-left: 5rem;
+        margin-right: 0.3125rem;
+    
+
+        
+    
+        }
+}
+
+    
+    
